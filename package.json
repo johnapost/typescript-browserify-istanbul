@@ -28,7 +28,7 @@
     "karma-mocha": "0.2.0",
     "karma-source-map-support": "1.1.0",
     "mocha": "2.3.2",
-    "remap-istanbul": "git://github.com/sitepen/remap-istanbul.git#dd9f5cb3fe8d6261739ce0ccb49e7825239d43f9",
+    "remap-istanbul": "0.1.0",
     "tsd": "0.6.4",
     "tsify": "0.11.11",
     "typescript": "1.5.3"
