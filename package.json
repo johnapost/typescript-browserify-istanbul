@@ -1,0 +1,36 @@
+{
+  "name": "typescript-browserify-istanbul",
+  "description": "Code coverage for TypeScript",
+  "version": "0.1.0",
+  "author": {
+    "name": "Stijn Van Nieuwenhuyse",
+    "email": "stijn@drafthorse.io"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stijnvn/typescript-browserify-istanbul.git"
+  },
+  "scripts": {
+    "test": "karma start --single-run",
+    "tdd": "karma start",
+    "test-coverage": "tsc --sourceMap && karma start karma-coverage.conf.js && node remap-source-map.js"
+  },
+  "devDependencies": {
+    "browserify": "11.0.1",
+    "browserify-istanbul": "0.2.1",
+    "chai": "3.2.0",
+    "karma": "0.13.9",
+    "karma-browserify": "4.3.0",
+    "karma-chai": "0.1.0",
+    "karma-chrome-launcher": "0.2.0",
+    "karma-coverage": "0.5.2",
+    "karma-mocha": "0.2.0",
+    "karma-source-map-support": "1.1.0",
+    "mocha": "2.3.2",
+    "remap-istanbul": "git://github.com/sitepen/remap-istanbul.git#dd9f5cb3fe8d6261739ce0ccb49e7825239d43f9",
+    "tsd": "0.6.4",
+    "tsify": "0.11.11",
+    "typescript": "1.5.3"
+  }
+}

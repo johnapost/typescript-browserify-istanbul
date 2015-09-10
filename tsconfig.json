@@ -1,0 +1,22 @@
+{
+    "version": "1.5.3",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "outDir": "./generated"
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*"
+    ],
+    "files": [
+        "./src/hello.ts",
+        "./src/shout.ts",
+        "./test/hello_spec.ts",
+        "./test/shout_spec.ts",
+        "./typings/assertion-error/assertion-error.d.ts",
+        "./typings/chai/chai.d.ts",
+        "./typings/mocha/mocha.d.ts",
+        "./typings/tsd.d.ts"
+    ]
+}
