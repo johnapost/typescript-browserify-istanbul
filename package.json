@@ -14,7 +14,7 @@
   "scripts": {
     "test": "karma start --single-run",
     "tdd": "karma start",
-    "test-coverage": "tsc --sourceMap && karma start karma-coverage.conf.js && node remap-source-map.js"
+    "test-coverage": "tsc --sourceMap && karma start karma-coverage.conf.js && remap-istanbul -i ./generated/chrome/coverage-final.json -t html -o ./coverage/chrome"
   },
   "devDependencies": {
     "browserify": "11.0.1",
@@ -28,7 +28,7 @@
     "karma-mocha": "0.2.0",
     "karma-source-map-support": "1.1.0",
     "mocha": "2.3.2",
-    "remap-istanbul": "0.1.0",
+    "remap-istanbul": "0.2.0",
     "tsd": "0.6.4",
     "tsify": "0.11.11",
     "typescript": "1.5.3"
