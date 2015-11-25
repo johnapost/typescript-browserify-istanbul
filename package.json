@@ -17,20 +17,20 @@
     "test-coverage": "tsc --sourceMap && karma start karma-coverage.conf.js && remap-istanbul -i ./generated/chrome/coverage-final.json -t html -o ./coverage/chrome"
   },
   "devDependencies": {
-    "browserify": "11.0.1",
+    "browserify": "12.0.1",
     "browserify-istanbul": "0.2.1",
-    "chai": "3.2.0",
-    "karma": "0.13.9",
-    "karma-browserify": "4.3.0",
+    "chai": "3.4.1",
+    "karma": "^0.13.15",
+    "karma-browserify": "4.4.0",
     "karma-chai": "0.1.0",
-    "karma-chrome-launcher": "0.2.0",
-    "karma-coverage": "0.5.2",
-    "karma-mocha": "0.2.0",
+    "karma-chrome-launcher": "0.2.1",
+    "karma-coverage": "0.5.3",
+    "karma-mocha": "0.2.1",
     "karma-source-map-support": "1.1.0",
-    "mocha": "2.3.2",
-    "remap-istanbul": "0.2.0",
-    "tsd": "0.6.4",
-    "tsify": "0.11.11",
-    "typescript": "1.5.3"
+    "mocha": "2.3.4",
+    "remap-istanbul": "0.4.0",
+    "tsd": "0.6.5",
+    "tsify": "0.12.2",
+    "typescript": "1.6.2"
   }
 }
